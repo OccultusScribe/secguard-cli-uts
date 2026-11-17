@@ -1,0 +1,47 @@
+{
+  "ingestion_summary": {
+    "raw_rows": 11,
+    "valid_rows": 8,
+    "duplicates_removed": 1,
+    "invalid_rows": 2
+  },
+  "security_metrics": {
+    "total_valid_logs": 8,
+    "success_count": 3,
+    "failed_count": 5,
+    "failure_rate_percent": 62.5,
+    "unique_ip_count": 4,
+    "brute_force_threshold": 3
+  },
+  "unique_ips": [
+    "10.10.1.15",
+    "172.16.0.8",
+    "192.168.1.50",
+    "203.0.113.42"
+  ],
+  "suspicious_ips": {
+    "192.168.1.50": 3
+  },
+  "user_activity_summary": {
+    "admin": {
+      "total_events": 2,
+      "failed_events": 0
+    },
+    "root": {
+      "total_events": 2,
+      "failed_events": 2
+    },
+    "ubuntu": {
+      "total_events": 1,
+      "failed_events": 1
+    },
+    "zidane": {
+      "total_events": 2,
+      "failed_events": 1
+    },
+    "guest": {
+      "total_events": 1,
+      "failed_events": 1
+    }
+  }
+}
