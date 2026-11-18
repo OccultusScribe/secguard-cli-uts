@@ -2,12 +2,6 @@
 
 Aplikasi command line (CLI) berbasis Python untuk membersihkan, menganalisis, dan mendeteksi aktivitas mencurigakan (seperti percobaan *brute-force* login) pada file log autentikasi server berformat CSV.
 
-## Identitas Pembuat
-* **Nama:** Muhammad Zidane Widodo
-* **NIM:** 25.83.1214
-* **Program Studi:** S1 - Teknik Komputer (Universitas AMIKOM Yogyakarta)
-* **Mata Kuliah:** Pemrograman Dasar (TK091)
-
 ## Persyaratan Sistem & Dependency
 * **Python:** Versi 3.10 atau lebih baru.
 * **External Library:** Tidak ada (100% menggunakan **Python Standard Library**: `csv`, `json`, `pathlib`, `sys`, `typing`).
